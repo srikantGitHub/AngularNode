@@ -1,0 +1,15 @@
+{
+  "name": "RESt-API",
+  "version": "0.0.0",
+  "description": "DIAL100,SHAKTI,TRACER",
+  "main": "server.js",
+  "repository": {},
+  "license": "(MIT OR Apache-2.0)",
+  "dependencies": {
+    "pg": "^6.0.0",
+	"finalhandler": "",
+	"http": "",
+	"router": ""
+  },
+  "engine": ""
+}

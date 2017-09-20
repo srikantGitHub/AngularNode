@@ -1,0 +1,14 @@
+<a ui-sref="newModels" class="btn-primary btn-lg nodecoration">Add New</a>
+<table class="table movietable">
+    <tr>
+        <td><h3>All</h3></td>
+        <td></td>
+    </tr>
+    <tr ng-repeat="mdl in model">
+        <td>{{mdl.title}}</td>
+        <td>
+            <a class="btn btn-primary" ui-sref="viewModels({id:mdl.title})">View</a>
+            <a class="btn btn-danger"  ng-click="deleteModel(mdl)">Delete</a>
+        </td>
+    </tr>
+</table>
